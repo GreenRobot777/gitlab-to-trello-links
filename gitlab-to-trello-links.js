@@ -20,6 +20,6 @@
         m = message.match(/#[0-9]+/g);
     }
     var cardNumber = m[0].replace(/#\s?/g, '').trim();
-    console.log("CardNumber : " + cardNumber);
+    //console.log("CardNumber : " + cardNumber);
     commit_title[0].innerHTML = message.replace(/#\s?[0-9]+/g, '<a href=https://trello.com/c/' + trello_board + '/' + cardNumber + ' target="_blank">' + m + '</a>').trim();
 })();
