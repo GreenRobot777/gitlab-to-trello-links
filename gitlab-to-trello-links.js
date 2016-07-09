@@ -5,6 +5,7 @@
 // @description  Add link to Trello card if exist '#00' pattern in the commit title on GitLab commit page
 // @author       GreenRobot
 // @include        *://gitlab.com/*/commit/*
+// @updateURL       https://raw.githubusercontent.com/profitlanding/gitlab-to-trello-links/master/gitlab-to-trello-links.js
 // @grant        none
 // ==/UserScript==
 
