@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         GitLab + Trello integration
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Add link to Trello card if exist '#00' pattern in the commit title on GitLab commit page
 // @author       GreenRobot
 // @include        *://gitlab.com/*/commit/*
