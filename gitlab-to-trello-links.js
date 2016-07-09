@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  Add link to Trello card if exist '#00' pattern in the commit title on GitLab commit page
 // @author       GreenRobot
-// @match        *://gitlab.com/*/commit/*
+// @include        *://gitlab.com/*/commit/*
 // @grant        none
 // ==/UserScript==
 
